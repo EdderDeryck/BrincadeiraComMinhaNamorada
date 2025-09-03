@@ -18,6 +18,20 @@ public class Brincadeira {
                 System.out.println("\nVai nessa, você vai casar comigo sim, responda novamente\n");
             }
         }
+
+        String respostaDivorcio = "";
+
+        while (!respostaDivorcio.equalsIgnoreCase("sim")) {
+            System.out.println("Você é feliz comigo né meu amor? \uD83D\uDE2D");
+            respostaDivorcio = scanner.nextLine();
+
+            if (respostaDivorcio.equalsIgnoreCase("sim")) {
+                System.out.println("Sua felicidade é a minha felicidade minha vida \uD83E\uDD1E\n");
+            } else {
+                System.out.println("\nVai nessa ILUDIDA, responda novamente  \n");
+
+            }
+        }
         System.out.println("Agora, uma pergunta MUITO séria:\n");
         System.out.println("💘 Quem você escolheria para viver ao seu lado?");
         System.out.println("1 - Meu namorado maravilhoso (você não tem outra opção )\n");
