@@ -15,7 +15,7 @@ public class Brincadeira {
            if (respostaCasamento.equalsIgnoreCase("sim")) {
                 System.out.println("Eu sei minha linda! Eu também quero!\n");
             } else {
-                System.out.println("\nVai nessa, você vai casar comigo sim, responda novamente\n");
+                System.out.println("\nVai nessa, VOCÊ VAI CASAR COMIGO SIM, responda novamente\n");
             }
         }
 
@@ -28,7 +28,7 @@ public class Brincadeira {
             if (respostaDivorcio.equalsIgnoreCase("não")) {
                 System.out.println("Ainda bem que você sabe que somos um só \uD83E\uDD1E\n");
             } else {
-                System.out.println("\nVai nessa vagabunda, RESPONDA DIREITO \n");
+                System.out.println("\nVai nessa, NUNCA QUE ISSO VAI ACONTECER, responda novamente\n");
 
             }
         }
