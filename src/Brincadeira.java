@@ -13,7 +13,7 @@ public class Brincadeira {
             respostaCasamento = scanner.nextLine();
 
            if (respostaCasamento.equalsIgnoreCase("sim")) {
-                System.out.println("Eu sei minha linda! Eu também quero!\n");
+                System.out.println("\nEu sei minha linda! Eu também quero!\n");
             } else {
                 System.out.println("\nVai nessa, VOCÊ VAI CASAR COMIGO SIM, responda novamente\n");
             }
@@ -33,13 +33,13 @@ public class Brincadeira {
             }
         }
 
-        String respostaDivorcio = "";
+        String respostaFelicidade = "";
 
-        while (!respostaDivorcio.equalsIgnoreCase("sim")) {
+        while (!respostaFelicidade.equalsIgnoreCase("sim")) {
             System.out.println("Você é feliz comigo né meu amor? \uD83D\uDE2D");
-            respostaDivorcio = scanner.nextLine();
+            respostaFelicidade = scanner.nextLine();
 
-            if (respostaDivorcio.equalsIgnoreCase("sim")) {
+            if (respostaFelicidade.equalsIgnoreCase("sim")) {
                 System.out.println("Sua felicidade é a minha felicidade minha vida \uD83E\uDD1E\n");
             } else {
                 System.out.println("\nVai nessa ILUDIDA, responda novamente  \n");
