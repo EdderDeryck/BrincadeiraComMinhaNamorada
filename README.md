@@ -14,6 +14,3 @@ Criar uma interação divertida via terminal, utilizando conceitos básicos de p
 ## 📌 Sobre o projeto
 
 A aplicação simula uma brincadeira interativa com perguntas românticas. A pessoa precisa responder corretamente (e com sinceridade, né amor? ❤️) para avançar. No final, há até uma pergunta bônus surpresa.
-
-## 📷 Print (exemplo da execução)
-
