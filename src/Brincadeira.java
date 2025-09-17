@@ -94,7 +94,7 @@ public class Brincadeira {
             System.out.print("Digite sua escolha: ");
             if (scanner.hasNextInt()) {
                 int perguntaBonus = scanner.nextInt();
-                scanner.nextLine(); // limpar buffer
+                scanner.nextLine();
                 switch (perguntaBonus) {
                     case 1:
                         System.out.print("\n🏡 Em qual local você preferiria morar comigo? Responde aí, amor: ");
