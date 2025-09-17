@@ -15,7 +15,7 @@ public class Brincadeira {
            if (respostaCasamento.equalsIgnoreCase("sim")) {
                 System.out.println("\nEu sei minha linda! Eu também quero!\n");
             } else {
-                System.out.println("\nVai nessa, VOCÊ VAI CASAR COMIGO SIM, responda novamente\n");
+                System.out.println("\nVai nessa, VOCÊ VAI CASAR COMIGO SIM\uD83D\uDE21, responda novamente\n");
             }
         }
 
@@ -28,7 +28,7 @@ public class Brincadeira {
             if (respostaDivorcio.equalsIgnoreCase("não")) {
                 System.out.println("Ainda bem que você sabe que somos um só \uD83E\uDD1E\n");
             } else {
-                System.out.println("\nVai nessa, NUNCA QUE ISSO VAI ACONTECER, responda novamente\n");
+                System.out.println("\nVai nessa, NUNCA QUE ISSO VAI ACONTECER\uD83D\uDE21, responda novamente\n");
 
             }
         }
@@ -46,6 +46,19 @@ public class Brincadeira {
 
             }
         }
+        String respostaCompanheira = "";
+
+        while (!respostaCompanheira.equalsIgnoreCase("sim")){
+            System.out.println("Você ficaria comigo na alegria e na tristeza, na saúde e na doença, na riqueza e na pobreza, amando-te, respeitando-te e sendo-te fiel em todos os dias de minha vida, até que a morte nos separe?");
+        respostaCompanheira = scanner.nextLine();
+
+        if (respostaCompanheira.equalsIgnoreCase("sim")) {
+            System.out.println("Meu amor, eu te amo muitíssimo minha linda❤\uFE0F \n");
+        } else {
+            System.out.println("VOCÊ ME QUERIA, VOCÊ CONSEGUIU\uD83D\uDE21, responda de novo minha docinho\n");
+        }
+        }
+
         System.out.println("Agora, uma pergunta MUITO séria:\n");
         System.out.println("💘 Quem você escolheria para viver ao seu lado?");
         System.out.println("1 - Meu namorado maravilhoso (você não tem outra opção )\n");
@@ -66,7 +79,7 @@ public class Brincadeira {
             if (escolha == 1) {
                 System.out.println("\n🎉 Sabia que você ia me escolher! Te amo! ❤️\n");
             } else {
-                System.out.println("\n🤨 Não tem outra opção, você me escolheu porque quis. Responda de novo!\n");
+                System.out.println("\n🤨 Não tem outra opção, você me escolheu porque quis\uD83D\uDE21. Responda de novo!\n");
             }
         }
 
