@@ -20,7 +20,7 @@ A pessoa precisa responder sinceramente (mas tem uma surpresa) para avançar. No
 
 Clone o repositório:
 
-git clone https://github.com/EdderDeryck/JokeWithMyGirlfriend.git
+git clone(https://github.com/EdderDeryck/JokeWithMyGirlfriend.git)
 
 
 Abra na sua IDE Java (como IntelliJ ou VSCode com Java).
