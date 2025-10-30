@@ -36,9 +36,7 @@ public class Brincadeira {
         );
 
         perguntarOpcaoUnica(scanner);
-
         perguntarBonus(scanner);
-
         scanner.close();
     }
 
