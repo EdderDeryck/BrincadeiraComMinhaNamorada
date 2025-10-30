@@ -87,3 +87,44 @@ public class Brincadeira {
         System.out.println("2 - Você largaria a mão de um lanche por mim? (Seja sincera kkkk)");
         System.out.println("3 - O que eu posso fazer para ser o melhor namorado para ti?");
         System.out.println("Caso não queira escolher, aperte qualquer tecla");
+
+        boolean respostaValida = false;
+
+        while (!respostaValida) {
+            System.out.print("Digite sua escolha: ");
+            if (scanner.hasNextInt()) {
+                int perguntaBonus = scanner.nextInt();
+                scanner.nextLine();
+                switch (perguntaBonus) {
+                    case 1:
+                        System.out.print("\n🏡 Em qual local você preferiria morar comigo? Responde aí, amor: ");
+                        String resposta1 = scanner.nextLine();
+                        System.out.println("Ai que delícia! Vamos pra " + resposta1 + " então! 😍");
+                        respostaValida = true;
+                        break;
+
+                    case 2:
+                        System.out.print("\n🍔 Você dividiria a última batata frita comigo? (sinceridade kkkk): ");
+                        String resposta2 = scanner.nextLine();
+                        System.out.println("Resposta registrada: " + resposta2 + " — Tá anotado hein 😏");
+                        respostaValida = true;
+                        break;
+
+                    case 3:
+                        System.out.print("\n💖 O que eu posso fazer para ser o melhor namorado para ti?: ");
+                        String resposta3 = scanner.nextLine();
+                        System.out.println("Anotado baby, te amo ❤️");
+                        respostaValida = true;
+                        break;
+
+                    default:
+                        System.out.println("\nApertou na opção errada meu bem, tenta de novo");
+                }
+            } else {
+                scanner.nextLine();
+                System.out.println("\nEu te amo meu amor, me dê um beijo agora 😘");
+                respostaValida = true;
+            }
+        }
+    }
+}
